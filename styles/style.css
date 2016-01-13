@@ -1,0 +1,216 @@
+@font-face {
+font-family: 'furoreregular';
+src: url('font/furore-webfont.eot');
+src: url('font/furore-webfont.eot?#iefix') format('embedded-opentype'),
+     url('font/furore-webfont.woff2') format('woff2'),
+     url('font/furore-webfont.woff') format('woff'),
+     url('font/furore-webfont.ttf') format('truetype'),
+     url('font/furore-webfont.svg#furoreregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
+html {
+height: 100%;
+}
+
+body {
+font-family: Arial, Helvetica, "Times New Roman", sans-serif;
+margin: 0;
+padding: 0;
+min-width: 730px;
+width: expression(document.body.clientWidth > 600)? "600px" : "auto";
+height: 100%;
+}
+
+a:link, a:active, a:visited, a:hover {
+color: #000;
+text-decoration: none;
+}
+
+hr {
+border: none; /* Убираем границу для браузера Firefox */
+color: #b8b8b8; /* Цвет линии для остальных браузеров */
+background-color: #b8b8b8; /* Цвет линии для браузера Firefox и Opera */
+height: 1px; /* Толщина линии */
+margin: 13px 0 6px 0;
+}
+
+.wrapper {
+min-height: 100%;
+}
+
+* html .wrapper { /* хак для ie6 */
+height: 100%; /* для ие6, т.к. не понимает min-height */
+}
+
+#header {
+text-align: center;
+padding: 37px 0 0 0;
+}
+
+#header table {
+font-size: 10pt;
+table-layout: fixed;
+text-align: left;
+margin: 8px auto;
+}
+
+#header img {
+margin: 0 6px 0 0;
+}
+
+#header .valignbutton {
+margin: 0;
+padding: 0 0 3px 0;
+}
+
+#logo {
+font-family: furoreregular;
+font-size: 27pt;
+width: 474px;
+padding: 0 0 0 10px;
+}
+
+#profile {
+width: 97px;
+padding: 16px 0 0 0;
+}
+
+#add {
+width: 100px;
+padding: 16px 0 0 0;
+}
+
+#logo a {
+display: block;
+}
+
+#hmenu {
+background-color: #000;
+}
+
+#hmenu ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#hmenu ul li {
+display: inline;
+}
+
+#hmenu ul li a {
+color: #fff;
+display: inline-block;
+padding: 5px 28px;
+}
+
+#content table {
+margin: auto;
+}
+
+#content table td {
+vertical-align: top;
+}
+
+#content ul {
+list-style-type: none;
+margin: 0;
+line-height: 18pt;
+}
+
+#navbar {
+font-size: 10.5pt;
+padding: 53px 44px 0 0;
+}
+
+#navbar ul {
+font-size: 9pt;
+padding: 0 0 0 13px;
+}
+
+#navbar li span {
+cursor:pointer;
+}
+
+#navbar a {
+color: #000;
+}
+
+#pager {
+font-size: 9pt;
+padding: 17px 0 0 0;
+}
+
+#pagination table {
+font-size: 13.5pt;
+color: #454545;
+float: right;
+margin: 0 7px 0 0;
+}
+
+#pagination a:link, a:active, a:visited {
+color: #454545;
+text-decoration: none;
+}
+
+#pagination a:hover {
+color: #c4c3c3;
+text-decoration: none;
+}
+
+#showitems {
+padding: 0 9px;
+}
+
+#grid {
+padding: 0 0 0 0;
+width:658px;
+}
+
+#grid tr td {
+padding: 0 2px 6px 36px;
+}
+
+#grid tr :first-child {
+padding-left: 1px;
+margin: 0;
+}
+
+#grid tr :nth-child(4) {
+padding-right: 1px;
+}
+
+#hfooter{
+height: 50px;
+}
+
+.footer {
+height: 46px;
+margin-top: -46px;
+background: #353535;
+}
+
+.item  {
+padding: 0 0 21px 0;
+}
+
+.item img {
+padding: 1px;
+margin: 0 0 4px 0;
+border: 1px solid #b8b8b8;
+}
+
+.headline {
+color: #808080;
+text-align: center;
+font-size: 17pt;
+margin: 20px 0 20px 0;
+}
+
+.center {
+text-align: center;
+font-size: 10pt;
+}

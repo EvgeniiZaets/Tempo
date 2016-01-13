@@ -1,0 +1,1 @@
+﻿<!-- Шаблон профиля --><div class = "headline">Profile</div><div class="center">    <b><?=$user['name']?></b><br />    <a href="index.php?c=user&act=profile&cmd=exit">Выход</a></div>
